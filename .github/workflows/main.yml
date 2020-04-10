@@ -1,0 +1,24 @@
+name: thinkforliving
+on:
+  push:
+    branches:
+      - master
+jobs:
+  build:
+    name: Build thinkforliving Web
+    env:
+      my_secret: ${{secrets.commit_secret}}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - run: |
+          hugo
+          cd public/
+          git init
+          git config --global user.email shardul.srivastava007@gmail.com
+          git config --global user.name "Shardul Srivastava"
+          git status
+          git remote add origin https://${{secrets.commit_secret}}@github.com/thinkforliving/thinkforliving.github.io.git
+          git add --all
+          git commit -m "Adding website html"
+          git push origin master -f
