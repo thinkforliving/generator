@@ -3,6 +3,7 @@
     <div class="footer-above">
         <div class="container">
             <div class="row">
+                <!--
                 <div class="footer-col col-md-4">
                     <h3>{{ with .Site.Params.footer.location.title }}{{.}}{{ end }}</h3>
 
@@ -15,20 +16,53 @@
                         </p>
                     {{ end }}
                 </div>
-                <div class="footer-col col-md-4">
-                    <h3>{{ with .Site.Params.footer.social.title }}{{.}}{{ end }}</h3>
+                -->
+                <div class="footer-col col-md-3">
+                    <h3>{{ with .Site.Params.footer.social1.title }}{{.}}{{ end }}</h3>
                     <ul class="list-inline">
-                        {{ range .Site.Params.footer.social.networks }}
+                        {{ range .Site.Params.footer.social1.networks }}
                             <li>
                                 <a href="{{ .link }}" class="btn-social btn-outline"><i class="fa fa-fw {{ .icon }}"></i></a>
                             </li>
                         {{ end }}
                     </ul>
                 </div>
+                <div class="footer-col col-md-3">
+                    <h3>{{ with .Site.Params.footer.social2.title }}{{.}}{{ end }}</h3>
+                    <ul class="list-inline">
+                        {{ range .Site.Params.footer.social2.networks }}
+                            <li>
+                                <a href="{{ .link }}" class="btn-social btn-outline"><i class="fa fa-fw {{ .icon }}"></i></a>
+                            </li>
+                        {{ end }}
+                    </ul>
+                </div>
+                <div class="footer-col col-md-3">
+                    <h3>{{ with .Site.Params.footer.social3.title }}{{.}}{{ end }}</h3>
+                    <ul class="list-inline">
+                        {{ range .Site.Params.footer.social3.networks }}
+                            <li>
+                                <a href="{{ .link }}" class="btn-social btn-outline"><i class="fa fa-fw {{ .icon }}"></i></a>
+                            </li>
+                        {{ end }}
+                    </ul>
+                </div>
+                <div class="footer-col col-md-3">
+                    <h3>{{ with .Site.Params.footer.social4.title }}{{.}}{{ end }}</h3>
+                    <ul class="list-inline">
+                        {{ range .Site.Params.footer.social4.networks }}
+                            <li>
+                                <a href="{{ .link }}" class="btn-social btn-outline"><i class="fa fa-fw {{ .icon }}"></i></a>
+                            </li>
+                        {{ end }}
+                    </ul>
+                </div>
+                <!--
                 <div class="footer-col col-md-4">
                     <h3>{{ with .Site.Params.footer.credits.title }}{{.}}{{ end }}</h3>
                     <p>{{ with .Site.Params.footer.credits.text }}{{ . | markdownify }}{{ end }}</p>
                 </div>
+                -->
             </div>
         </div>
     </div>

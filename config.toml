@@ -60,12 +60,15 @@ theme = "hugo-freelancer-theme"
     [params.about]
         title = "About"
         # The about text is splitted into a left and right column
-        left = "Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization."
-        right = "Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!"
+        sentence1 = "We are **ThinkForLiving**."
+        sentence2 = "We care **lives**. We value **information**. We appreciate **contribution**. We cncourage **co-operation**."
+        sentence3 = "We are building the platform for **requestor** to find and receive reosurces from **suppliers** in an easy and fast way with the help of **volunteers(enablers)**."
+        sentence4 = "We are accelerating transaction of the **essential goods** to reach the people who are battling **Cov-19**."
+        #right = "Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!"
 
         [params.about.button]
-            text = "Download theme"
-            link = "//github.com/digitalcraftsman/hugo-freelancer-theme/archive/master.zip"
+            text = "Download Source"
+            link = "//github.com/thinkforliving/thinkforliving.github.io/archive/v0.1.zip"
             icon = "download"
 
 
@@ -101,18 +104,45 @@ theme = "hugo-freelancer-theme"
             # Postal address (add as many lines as necessary)
             address = ["3481 Melrose Place", "Beverly Hills, CA 90210"]
 
-        [params.footer.social]
-            title = "Around the web"
-            # All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
-            # for more icons. The icons are represented by their corresponding
-            # CSS class.
-            [[params.footer.social.networks]]
-                icon = "fa-github"
-                link = "//github.com/spf13/hugo"
+        [params.footer.social1]
+            title = "Harshad"
+            [[params.footer.social1.networks]]
+                icon = "fa-linkedin"
+                link = "//linkedin.com/in/harshadwankhede/"
 
-            [[params.footer.social.networks]]
-                icon = "fa-stack-overflow"
-                link=  "//stackoverflow.com/questions/tagged/hugo"
+            [[params.footer.social1.networks]]
+                icon = "fa-github"
+                link=  "//github.com/codeweft"
+
+        [params.footer.social2]
+            title = "Tina Zhang"
+            [[params.footer.social2.networks]]
+                icon = "fa-linkedin"
+                link = "//linkedin.com/in/lu-zhang-380a99160"
+
+            [[params.footer.social2.networks]]
+                icon = "fa-github"
+                link=  "//github.com/luzhangtina"
+
+        [params.footer.social3]
+            title = "Krunal Shah"
+            [[params.footer.social3.networks]]
+                icon = "fa-linkedin"
+                link = "//linkedin.com/in/krunal-shah-00206913"
+
+            [[params.footer.social3.networks]]
+                icon = "fa-github"
+                link=  "//github.com/thinkforliving"
+
+        [params.footer.social4]
+            title = "Shardul"
+            [[params.footer.social4.networks]]
+                icon = "fa-linkedin"
+                link = "//linkedin.com/in/shardulsrivastava"
+
+            [[params.footer.social4.networks]]
+                icon = "fa-github"
+                link=  "//github.com/shardulsrivastava"
 
 
         [params.footer.credits]
