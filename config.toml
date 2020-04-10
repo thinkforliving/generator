@@ -13,7 +13,7 @@ theme = "hugo-freelancer-theme"
     # To provide some metadata for search engines feel free to add a few
     # information about you and your website.
     name = "Think For Living"
-    description = "My awesome description"
+    description = "Connecting frontline staff with equipment reliably through Enablers"
 
     # Since this template is static, the contact form uses www.formspree.io as a
     # proxy. The form makes a POST request to their servers to send the actual
@@ -40,7 +40,7 @@ theme = "hugo-freelancer-theme"
         # Copy your own image into './static/img/'' if you wish
         image = "kid.png"
         name = "A Noble Initiatve"
-        subtitle = "Connecting Requestors to Providers meaningfully through Enablers(Work in Progress)"
+        subtitle = "Connecting frontline staff with equipment reliably through Enablers(Work in Progress)"
 
 
     [params.portfolio]
