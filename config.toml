@@ -97,7 +97,7 @@ theme = "hugo-freelancer-theme"
 
 
     [params.footer]
-        copyright = "© Think For Living - 2020. All rights reserved"
+        copyright = "A Non Profit Initiative! © Think For Living - 2020. All rights reserved."
 
         [params.footer.location]
             title = "Location"
