@@ -33,7 +33,7 @@ theme = "hugo-freelancer-theme"
 	custom_js  = []
 
     [params.navigation]
-        brand = "THINK FOR LIVING"
+        brand = "THINK FOR LIVING(Not For Profit)"
 
 
     [params.header]
@@ -70,7 +70,7 @@ theme = "hugo-freelancer-theme"
 
 
     [params.contact]
-        title = "Contact"
+        title = "Who We Are"
 
         # 'error' defines error messages for invalid inputs
         [params.contact.form.name]
@@ -94,7 +94,7 @@ theme = "hugo-freelancer-theme"
 
 
     [params.footer]
-        copyright = "Published under the Apache License 2.0. Powered by [Hugo](//gohugo.io)."
+        copyright = "© Think For Living - 2020. All rights reserved"
 
         [params.footer.location]
             title = "Location"
