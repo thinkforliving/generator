@@ -1,7 +1,7 @@
 # Site settings
 baseurl = "https://thinkforliving.github.io/"
 languageCode = "en-us"
-title = "Hugo Freelancer Theme"
+title = "ThinkForLiving"
 theme = "hugo-freelancer-theme"
 
 
@@ -12,7 +12,7 @@ theme = "hugo-freelancer-theme"
 
     # To provide some metadata for search engines feel free to add a few
     # information about you and your website.
-    name = "Mr. Hugo"
+    name = "Think For Living"
     description = "My awesome description"
 
     # Since this template is static, the contact form uses www.formspree.io as a
@@ -33,14 +33,14 @@ theme = "hugo-freelancer-theme"
 	custom_js  = []
 
     [params.navigation]
-        brand = "Mr. Hugo's Portfolio"
+        brand = "THINK FOR LIVING"
 
 
     [params.header]
         # Copy your own image into './static/img/'' if you wish
         image = "profile.png"
-        name = "Mr. Hugo"
-        subtitle = "Blogger - Programmer - Gopher"
+        name = "A Noble Initiative"
+        subtitle = "To Connect Requestors to Providers meaningfully through Enablers"
 
 
     [params.portfolio]
