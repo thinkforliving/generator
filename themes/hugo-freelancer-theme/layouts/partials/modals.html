@@ -14,9 +14,10 @@
                     <div class="modal-body">
                         <h2>{{ .title }}</h2>
                         <hr class="star-primary">
-                        <img src="img/portfolio/{{ .img }}" class="img-responsive img-centered" alt="">
-                        <p>{{ .description | markdownify }}</p>
-                        <ul class="list-inline item-details">
+                        <!--<img src="img/portfolio/{{ .img }}" class="img-responsive img-centered" alt=""> -->
+                        <iframe src="{{ .form }}" width="640" height="382" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                        <!--<p>{{ .description | markdownify }}</p> -->
+                        <!-- <ul class="list-inline item-details">
                             <li>{{ with $.Site.Params.portfolio.modal.client }}{{.}}{{ end }}:
                                 <strong><a href="{{ .clientLink }}">{{ .client }}</a></strong>
                             </li>
@@ -26,7 +27,7 @@
                             <li>{{ with $.Site.Params.portfolio.modal.category }}{{.}}{{ end }}:
                                 <strong>{{ .category }}</strong>
                             </li>
-                        </ul>
+                        </ul> -->
                         <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> {{ with $.Site.Params.portfolio.modal.buttontext }}{{.}}{{ end }}</button>
                     </div>
                 </div>
