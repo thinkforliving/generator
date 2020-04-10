@@ -40,7 +40,7 @@ theme = "hugo-freelancer-theme"
         # Copy your own image into './static/img/'' if you wish
         image = "kid.png"
         name = "A Noble Initiatve"
-        subtitle = "Connecting frontline staff with equipment reliably through Enablers(Work in Progress)"
+        subtitle = "Connecting frontline staff with service providers/equipment reliably through our Volunteers(Work in Progress)"
 
 
     [params.portfolio]
