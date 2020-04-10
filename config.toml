@@ -38,8 +38,8 @@ theme = "hugo-freelancer-theme"
 
     [params.header]
         # Copy your own image into './static/img/'' if you wish
-        image = "profile.png"
-        name = "A Noble Initiative"
+        image = "kid.png"
+        name = "A Noble Initiatve"
         subtitle = "To Connect Requestors to Providers meaningfully through Enablers"
 
 
