@@ -33,14 +33,14 @@ theme = "hugo-freelancer-theme"
 	custom_js  = []
 
     [params.navigation]
-        brand = "THINK FOR LIVING(Not For Profit)"
+        brand = "THINK FOR LIVING"
 
 
     [params.header]
         # Copy your own image into './static/img/'' if you wish
         image = "kid.png"
         name = "A Noble Initiatve"
-        subtitle = "To Connect Requestors to Providers meaningfully through Enablers"
+        subtitle = "Connecting Requestors to Providers meaningfully through Enablers(Work in Progress)"
 
 
     [params.portfolio]
