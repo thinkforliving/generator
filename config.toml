@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://thinkforliving.github.io/"
+baseurl = "https://www.thinkforliving.com/"
 languageCode = "en-us"
 title = "ThinkForLiving"
 theme = "hugo-freelancer-theme"
