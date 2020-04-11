@@ -10,12 +10,12 @@
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
+                <!-- <div class="col-lg-8 col-lg-offset-2"> -->
                     <div class="modal-body">
                         <h2>{{ .title }}</h2>
                         <hr class="star-primary">
                         <!--<img src="img/portfolio/{{ .img }}" class="img-responsive img-centered" alt=""> -->
-                        <div class="ppt"><iframe  src="{{ .form }}" width="640" height="382" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe></div>
+                        <div class="ppt"><iframe  src="{{ .form }}" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe></div>
                         <!--<p>{{ .description | markdownify }}</p> -->
                         <!-- <ul class="list-inline item-details">
                             <li>{{ with $.Site.Params.portfolio.modal.client }}{{.}}{{ end }}:
@@ -28,9 +28,9 @@
                                 <strong>{{ .category }}</strong>
                             </li>
                         </ul> -->
-                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> {{ with $.Site.Params.portfolio.modal.buttontext }}{{.}}{{ end }}</button>
+                        <!-- <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> {{ with $.Site.Params.portfolio.modal.buttontext }}{{.}}{{ end }}</button> -->
                     </div>
-                </div>
+                <!-- </div> -->
             </div>
         </div>
     </div>
