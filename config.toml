@@ -39,7 +39,7 @@ theme = "hugo-freelancer-theme"
     [params.header]
         # Copy your own image into './static/img/'' if you wish
         image = "kid.png"
-        name = "A Noble Initiatve"
+        name = "#flattenthecurvehack"
         subtitle = "Connecting frontline staff with non profit service providers/equipment reliably through our Volunteers(Work in Progress)"
 
 
