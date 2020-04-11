@@ -40,7 +40,7 @@ theme = "hugo-freelancer-theme"
         # Copy your own image into './static/img/'' if you wish
         image = "kid.png"
         name = "#flattenthecurvehack"
-        subtitle = "Connecting frontline staff with non profit service providers/equipment reliably through our Volunteers(Work in Progress)"
+        subtitle = "Platform to connect vulnerable people with essential goods and services through enablers"
 
 
     [params.portfolio]
@@ -60,10 +60,10 @@ theme = "hugo-freelancer-theme"
     [params.about]
         title = "About"
         # The about text is splitted into a left and right column
-        sentence1 = "We are **ThinkForLiving**."
-        sentence2 = "We care **lives**. We value **information**. We appreciate **contribution**. We cncourage **co-operation**."
-        sentence3 = "We are building the platform for **requestor** to find and receive reosurces from **suppliers** in an easy and fast way with the help of **volunteers(enablers)**."
-        sentence4 = "We are accelerating transaction of the **essential goods** to reach the people who are battling **Cov-19**."
+        sentence1 = "We are **Think For Living**."
+        sentence2 = "We value lives. We value contribution. We value time. "
+        sentence3 = "We are building the platform for **Requestor** to find and receive reosurces from **Supplier** efficiently through **Enablers**."
+        sentence4 = "We are building a next gen platfrom for accelerating procurement of **essential goods** to reach the people who are battling **Cov-19**."
         #right = "Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!"
 
         [params.about.button]
