@@ -60,10 +60,10 @@ theme = "hugo-freelancer-theme"
     [params.about]
         title = "About"
         # The about text is splitted into a left and right column
-        sentence1 = "We are **Think For Living**."
-        sentence2 = "We value lives. We value contribution. We value time. "
-        sentence3 = "We are building the platform for **Requestor** to find and receive reosurces from **Supplier** efficiently through **Enablers**."
-        sentence4 = "We are building a next gen platfrom for accelerating procurement of **essential goods** to reach the people who are battling **Cov-19**."
+        sentence1 = "We are **Think For Living**"
+        sentence2 = "We value lives. We value contribution. We value time"
+        sentence3 = "We are building the platform for **Requestor** to find and receive reosurces from **Supplier** efficiently through **Enablers**"
+        sentence4 = "We are building a next gen platfrom for accelerating procurement of **essential goods** to reach the people who are battling **Cov-19**"
         #right = "Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!"
 
         [params.about.button]
