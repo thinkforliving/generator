@@ -250,7 +250,16 @@ section.success {
 @media(min-width:767px) {
     #portfolio .portfolio-item {
         margin: 0 0 30px;
+    } 
+}
+
+@media only screen and (max-width: 768px) {
+    .portfolio-modal .close-modal .lr .rl {
+        height: 35px!important;
     }
+    .portfolio-modal .close-modal .lr {
+        height: 35px!important;
+    }  
 }
 
 .btn-outline {
