@@ -41,6 +41,10 @@ theme = "hugo-freelancer-theme"
         image = "kid.png"
         name = "#flattenthecurvehack"
         subtitle = "Platform to connect vulnerable people with essential goods and services through enablers"
+        [params.about.button1]
+            text = "Join Us"
+            link = "//forms.gle/cvxzXkBkJoyWZ1AZ8"
+            icon = "hands-helping"
 
 
     [params.portfolio]
@@ -60,16 +64,16 @@ theme = "hugo-freelancer-theme"
     [params.about]
         title = "About"
         # The about text is splitted into a left and right column
-        sentence1 = "We are **Think For Living**"
-        sentence2 = "We value lives. We value contribution. We value time"
-        sentence3 = "We are building the platform for **Requestor** to find and receive resources from **Supplier** efficiently through **Enablers**"
-        sentence4 = "We are building a next gen platfrom for accelerating procurement of **essential goods and services** to reach the people who are battling **COVID-19**"
+        sentence1 = "**We are Think For Living**"
+        sentence2 = "**We value life. We value contribution. We value time**"
+        sentence3 = "**We are building the platform for Requestor to find and receive resources from Supplier efficiently through Enablers**"
+        sentence4 = "**We are building a next gen platfrom for accelerating procurement of essential goods and servicesto reach the people who are battling COVID-19**"
         #right = "Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!"
 
         [params.about.button]
-            text = "Download Source"
-            link = "//github.com/thinkforliving/thinkforliving.github.io/archive/v0.1.zip"
-            icon = "download"
+            text = "Join Us"
+            link = "//forms.gle/cvxzXkBkJoyWZ1AZ8"
+            icon = "hands-helping"
 
 
     [params.contact]
