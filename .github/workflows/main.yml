@@ -18,6 +18,7 @@ jobs:
       - run: |
           hugo
           cd public/
+          echo 'google-site-verification: google4f8b1376a5a8e913.html' >> google4f8b1376a5a8e913.html
           echo 'www.thinkforliving.com' >> CNAME
           git init
           git config --global user.email shardul.srivastava007@gmail.com
