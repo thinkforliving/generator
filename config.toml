@@ -39,7 +39,7 @@ theme = "hugo-freelancer-theme"
     [params.header]
         # Copy your own image into './static/img/'' if you wish
         image = "kid.png"
-        name = "#flattenthecurvehack"
+        name = "THINK FOR LIVING"
         subtitle = "Platform to connect vulnerable people with essential goods and services through enablers"
         [params.about.button1]
             text = "Join Us"
