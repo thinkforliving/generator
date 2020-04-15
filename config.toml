@@ -62,12 +62,13 @@ theme = "hugo-freelancer-theme"
 
 
     [params.about]
-        title = "About"
+        title = "The Roadmap"
         # The about text is splitted into a left and right column
-        sentence1 = "**We are Think For Living**"
-        sentence2 = "**We value life. We value contribution. We value time**"
-        sentence3 = "**We are building the platform for Requestor to find and receive resources from Supplier efficiently through Enablers**"
-        sentence4 = "**We are building a next gen platfrom for accelerating procurement of essential goods and servicesto reach the people who are battling COVID-19**"
+
+        sentence1 = "**The short term objective to is very simple**"
+        sentence2 = "**Design and develop a #platform to enable demand driven economy. Meaning, a platform centered around Requestors and Enablers. A pull model, rather than a Push.**"
+        sentence3 = "**Having not for profit as a core value will ensure we don't compromise on quality on the platform. The platform will  aim to source offerings directly from supplier, effectively bringing down cost and enabling quality control through routine inspections by Enablers(Experts)**"
+        sentence4 = "**The long term goal of this platform is to boost local economy by ensure quality products are developed and sourced locally. Sourcing locally will also allow us to enforce accountability and good business practices for the products and services offered through this platform.**"
         #right = "Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!"
 
         [params.about.button]
@@ -77,7 +78,7 @@ theme = "hugo-freelancer-theme"
 
 
     [params.contact]
-        title = "Who We Are"
+        title = "Vision"
 
         # 'error' defines error messages for invalid inputs
         [params.contact.form.name]
